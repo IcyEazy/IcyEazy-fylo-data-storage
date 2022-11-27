@@ -1,0 +1,156 @@
+body{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    background-color: hsl(229, 57%, 11%);
+    /* background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    margin: 50px 200px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-b img{
+    width: 100%;
+}
+
+.fylo{
+    padding: 30px 90px 30px 30px;
+    border-radius: 10px 90px 10px 10px;
+    background-color: hsl(228, 56%, 26%);
+}
+
+.svgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+}
+
+.svg{
+    border: 2px solid hsl(229, 57%, 11%);
+    border-radius: 7px;
+    padding: 7px 6px;
+    background-color: hsl(229, 57%, 11%);
+    margin-top: 20px;
+}
+
+.range{
+    padding: 30px;
+    border-radius: 8px;
+    background-color: hsl(228, 56%, 26%);
+    color: hsl(229, 7%, 55%);
+}
+
+.range-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range-text p:nth-child(2){
+    margin-top: -100px;
+    padding: 15px 15px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+
+.range-text p:nth-child(2) span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.range .range-input p{
+    display: flex;
+    justify-content: space-between;
+}
+
+#range{
+    width: 450px;
+}
+
+.white{
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 720px) {
+    body{
+        background-image: url(./images/bg-mobile.png);
+    }
+    .container{
+        margin: 70px 30px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .range .range-text p:first-child{
+        text-align: center;
+    }
+    #range{
+        width: 100%;
+    }
+    .range-text p:nth-child(2){
+        margin: 0 90px -250px -150px;
+    }
+    .fylo{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .attribution{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        background-image: url(./images/bg-mobile.png);
+    }
+    .container{
+        margin: 70px 30px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .range .range-text p:first-child{
+        text-align: center;
+    }
+    #range{
+        width: 100%;
+    }
+    .range-text p:nth-child(2){
+        margin: 0 90px -250px -150px;
+    }
+    .fylo{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .attribution{
+        margin-top: 60px;
+    }
+}
