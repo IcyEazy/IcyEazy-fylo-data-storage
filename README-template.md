@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/IcyEazy/IcyEazy-fylo-data-storage.git)
+- Live Site URL: [Add live site URL here](https://icyeazy.github.io/IcyEazy-fylo-data-storage/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://icyeazy.github.io/IcyEazy-fylo-data-storage/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Icy-Eazy)
 - Twitter - [@yourusername](https://www.twitter.com/Ic_Eazy)
 
